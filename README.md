@@ -1,13 +1,13 @@
 # Introduction
 
-The following instructions aim to help you to check that you have installed into your laptop the minimum tools required for Python labs.
+The following instructions aim to help you to check that you have installed into your laptop, the minimum tools required for Python labs.
 
 ## Installation
 
 - Create a working directory, into your Devolpement Laptop
 - Open a console window and change directory to your working directory
 
-Based on the instruction given by the DEVNET documentation, create a python virtual environment and activate it
+Based on the instructions given in the DEVNET documentation, create a python virtual environment and activate it
 
 ### Install a Python virtual environment
 
@@ -24,12 +24,12 @@ We assume that you already have installed git-bash.  If so open a git-bash conso
 	
 	venv\Scripts\activate
 
-### git clone the scripts
+### Clone the scripts
 
-	git clone 
-	cd 
+	git clone https://github.com/pcardotatgit/check_dev_tools.git
+	cd check_dev_tools
 	
-### install needed modules
+### Install needed python modules
 
 We need the **requests** python module
 
@@ -41,7 +41,7 @@ Or you can install them with the following  :
 	
 	pip install -r requirements.txt
 
-## Get your Webex Token and ocnfigure your script
+## Get your Webex Token and configure your script
 
 - Go to [developer webex](https://developer.webex.com) and login to your account
 - Go to [ documentation ] => REST API / Getting Started
