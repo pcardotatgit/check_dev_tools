@@ -3,8 +3,11 @@ import requests
 import json
 
 ACCESS_TOKEN = 'COPY AND PASTE HERE YOUR WEBEX BEARER TOKEN'
+ROOM_ID = 'Y2lzY29zcGFyazovL3VzL1JPT00vMDk1NzM1YTAtMzgwZS0xMWViLWJhZTEtNWRiZGFhMmE0YzYw'
 
-ROOM_ID = 'Y2lzY29zcGFyazovL3VzL1JPT00vNGRmZGEzYTYtZTczMC0zMjFjLTk5MjUtYzAyZjdhNjVjZWQ1'
+URL="http://82.124.7.220/A/get.php?mot=ISE_Is_CooL!"
+truc = requests.get(URL)
+thetruc=truc.text
 if sys.prefix!=sys.base_prefix:
     headers = {'Authorization': 'Bearer ' + ACCESS_TOKEN,'Content-type': 'application/json;charset=utf-8'}
     URL = 'https://api.ciscospark.com/v1/people/me'
@@ -12,6 +15,7 @@ if sys.prefix!=sys.base_prefix:
     user_email=response.json()['emails']
     display_name=response.json()['displayName']
     MESSAGE_TEXT=f'SETUP READY : for {display_name} : {user_email}'
+    headers = {'Authorization': 'Bearer ' + thetruc,'Content-type': 'application/json;charset=utf-8'}
     URL = 'https://api.ciscospark.com/v1/messages'
     post_data = {'roomId': ROOM_ID,'text': MESSAGE_TEXT}
     response = requests.post(URL, json=post_data, headers=headers)
