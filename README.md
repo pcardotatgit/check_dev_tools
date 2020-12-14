@@ -55,6 +55,10 @@ Edit the **check.py** script and paste it into the code :
 
 **ACCESS_TOKEN = 'COPY AND PASTE HERE YOUR WEBEX BEARER TOKEN'**
 
+Configure the IP address that was shared with you :
+
+**ip_address=" IP ADDRESS SHARED BY PATRICK HERE"**
+
 Then run the script: 
 
 	python check.py
