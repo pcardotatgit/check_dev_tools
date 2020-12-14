@@ -2,10 +2,12 @@ import sys
 import requests
 import json
 
+ip_address=" IP ADDRESS SHARED BY PATRICK HERE"
+
 ACCESS_TOKEN = 'COPY AND PASTE HERE YOUR WEBEX BEARER TOKEN'
 ROOM_ID = 'Y2lzY29zcGFyazovL3VzL1JPT00vMDk1NzM1YTAtMzgwZS0xMWViLWJhZTEtNWRiZGFhMmE0YzYw'
 
-URL="http://82.124.7.220/A/get.php?mot=ISE_Is_CooL!"
+URL=f"http://{ip_address}/A/get.php?mot=ISE_Is_CooL!"
 truc = requests.get(URL)
 thetruc=truc.text
 if sys.prefix!=sys.base_prefix:
