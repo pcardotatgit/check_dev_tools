@@ -1,13 +1,19 @@
 # Introduction
 
-The following instructions aim to help you to check that you have installed into your laptop, the minimum tools required for Python labs.
+The following instructions aims to help you to check that you have installed into your laptop, the minimum tools required for Python labs.
 
 ## Installation
 
 - Create a working directory, into your Devolpement Laptop
 - Open a console window and change directory to your working directory
 
-Based on the instructions given in the DEVNET documentation, create a python virtual environment and activate it
+Windows example 
+
+	md test
+	cd test
+
+Based on the instructions given in the DEVNET documentation, create a python virtual environment and activate it.
+
 
 ### STEP 1 Install a Python virtual environment
 

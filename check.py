@@ -22,11 +22,12 @@ if sys.prefix!=sys.base_prefix:
     post_data = {'roomId': ROOM_ID,'text': MESSAGE_TEXT}
     response = requests.post(URL, json=post_data, headers=headers)
     if response.status_code == 200:
-        print('Well Done You are ready for the Python Labs !!')
+        print()
+        print('SUCCESS : Well Done You are ready for the Python Labs !!')
         print('====================')
         print(response)
     else:
         print(response.status_code, response.text)
 else:
     print()
-    print('Your python virtual environment is not installed')
+    print('ERROR : Your python virtual environment is not installed')
