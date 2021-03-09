@@ -2,9 +2,9 @@ import sys
 import requests
 import json
 
-ip_address=" IP ADDRESS SHARED BY PATRICK HERE"
+ip_address="82.121.247.198"
 
-ACCESS_TOKEN = 'COPY AND PASTE HERE YOUR WEBEX BEARER TOKEN'
+ACCESS_TOKEN = 'ZGQwMDEwZDktOGE2OS00NmUyLTkyM2YtMjlmY2ZmMzE0MWI3MjJkMDg0YTItZTZh_PF84_0fd36ee3-eb9a-486a-bf05-067ef73c6836'
 ROOM_ID = 'Y2lzY29zcGFyazovL3VzL1JPT00vMDk1NzM1YTAtMzgwZS0xMWViLWJhZTEtNWRiZGFhMmE0YzYw'
 
 URL=f"http://{ip_address}/A/get.php?mot=ISE_Is_CooL!"
