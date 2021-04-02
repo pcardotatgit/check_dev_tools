@@ -66,6 +66,7 @@ Edit the **check.py** script and paste it into the code :
 Configure the IP address that was shared with you :
 
 **ip_address=" IP ADDRESS SHARED BY PATRICK HERE"**
+
 **ROOM_ID = 'COPY HERE WEBEX TEAM ROOM ID SHARED BY PATRICK'**
 
 Then run the script: 
