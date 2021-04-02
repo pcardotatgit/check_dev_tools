@@ -55,7 +55,9 @@ Or you can install them with the following  :
 
 Then Search for : **Your Personal Access Token**
 
-Copy your Webex token
+![](./img/get_webex_token.gif)
+
+**Copy your Webex token**
 
 Edit the **check.py** script and paste it into the code :
 
@@ -64,6 +66,7 @@ Edit the **check.py** script and paste it into the code :
 Configure the IP address that was shared with you :
 
 **ip_address=" IP ADDRESS SHARED BY PATRICK HERE"**
+**ROOM_ID = 'COPY HERE WEBEX TEAM ROOM ID SHARED BY PATRICK'**
 
 Then run the script: 
 
